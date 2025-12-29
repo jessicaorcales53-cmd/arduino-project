@@ -1,0 +1,44 @@
+body{
+    background-image: url(bilder/snake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    border-radius: 120px;
+}
+
+fieldset {
+
+    float: center;
+    margin: 100px;
+    margin-bottom: 5px;
+    width: 350px;
+    height: 400px;
+    border-radius: 30px;
+    border-color: black;
+}
+
+footer {
+        
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    width: 550px;
+    margin-left: 120px;
+    padding-top: 10px;
+        
+        
+}
+.mainbtn{
+    background-color: greenyellow;
+    background-position: center;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+.mainbtn:hover{
+    background-color: blue;
+}
+

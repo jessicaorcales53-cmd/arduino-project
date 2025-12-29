@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>good morning</title>
+    <style>
+        body{
+            text-align: center;
+            margin: 50px;
+        }
+
+        .klokke{
+            font-size: 88px;
+            font-weight: 900;
+        }
+
+        .dato{
+            font-size: 68px;
+            font-weight: 900;
+        }
+    </style>
+
+</head>
+<body>
+     <h1>norway</h1> 
+     <div class="klokke" id="klokke">00:00:00</div>
+     <div class="dato">18.09.2024</div>
+
+
+    <script>
+        function oppdaterKlokke() {
+            const now = new Date();
+            const tid = now.toLocaleTimeString('no-No');
+            const dato = now.toLocaleDateString('no-No');
+
+
+            document.getElementById('klokke').textContent = tid;
+            document.getElementById('dato').textContent = dato;
+        }
+
+        setInterval(oppdaterKlokke,1000);
+        oppdaterKlokke();
+    </script>
+
+    <h2> philippines </h2>
+    <div class="klokke" id="klokke">00:00:00</div>
+    <div class="dato">18.09.2024</div>
+
+
+    <script>
+        function oppdaterKlokke () { 
+
+                const now = new Date();
+                const tid= now.getTimezoneOffset('ph-PH');
+                const dato = now.toTimeString('ph-PH');
+
+
+                documnet.getElementById('klokke').textContent = tid;
+                document.getElementById('dato').textContent = dato;
+
+            }
+
+            setInterval(oppdaterKlokke, );
+            oppdaterKlokke();
+    </script>
+
+     
+    
+
+</body>
+</html>

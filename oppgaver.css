@@ -1,0 +1,16 @@
+body{
+
+    background-color: aqua; 
+    transform: rotate(120deg);
+}
+
+img{
+
+    border: 1px dotted black;
+    padding: 120px;
+    margin: 90px;
+    border-radius: 12px;
+}
+
+
+
